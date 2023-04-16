@@ -1,0 +1,165 @@
+
+/* Generales */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row{
+    padding: 5px;
+    margin: 10px;
+}
+
+h6{
+    font-size: 1.2rem;
+}
+
+/* Barra de navegación */
+.logos{
+margin: 0px 150px 0px 100px;
+
+}
+
+.barra-menu{
+
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.boton-oscuro{
+    border-radius: 0;
+}
+.boton-claro{
+    border-radius: 0;
+    background-color: white;
+}
+
+/* Hero */
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor-hero{
+    background-color: white;
+    
+    padding: 10px;
+}
+
+.contenedor-hero button{
+    margin: 5px 0 10px 0;
+}
+
+.contenedor-titulo{
+    background-color:white;
+    
+    
+}
+.contenedor-titulo p{
+    margin: 10px;
+}
+
+
+.hero-info{
+    padding: 10px;
+}
+
+.happy-customer{
+    border-right: 2px solid #262626;
+}
+
+/* Hero img */
+
+.contenedor-imagen-principal{
+    display: inherit;
+    padding: 10px;
+    justify-content: center;
+
+
+}
+
+.img1{
+    width: 25%;
+    height: 82%;
+    margin: 10px;
+    margin: 15px 10px 0px 10px;
+
+}
+
+.img2{
+    width: 25%;
+    height: 80%;
+    margin: 0px 10px 15px 10px;
+}
+
+.img3{
+    width: 25%;
+    height: 82%;
+    margin: 10px;
+    margin: 15px 10px 0px 10px;
+}
+
+.contenedor-imagen-principal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+
+}
+
+
+/* Section Cards*/
+
+.seccion-cartas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-cartas{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.seccion-cartas img{
+    padding: 5px;
+    border-radius:15px ;
+    width: 60%;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+.card-title{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+    align-items: start;
+}
+
+.card-text{
+    display: flex;
+    font-size: 0.8rem;
+    margin: 10px;
+    text-align: left;
+}
